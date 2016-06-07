@@ -5,7 +5,7 @@ var Main = require('./components/Main');
 var Timer = require('./components/Timer');
 var Countdown = require('./components/Countdown')
 
-require('style!css!foundation-sites/dist/foundation.min.css');
+// require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
 
 require('style!css!sass!./styles/app.scss')
