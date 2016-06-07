@@ -25,9 +25,12 @@ module.exports = {
   resolve: {
     root: __dirname,
     alias: {
-      
+
     },
     extensions: ['', '.js', '.jsx']
+  },
+  alias: {
+    Clock: 'app/components/Clock.jsx'
   },
   module: {
     loaders: [
